@@ -1,0 +1,162 @@
+.cardSection {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  width: 280px;
+  height: 320px;
+  /* background: linear-gradient(to bottom, #59d337 0%, #111827 60%); */
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.logoContainer {
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.logo {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+.playIconWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  /* background-color: #ffffff44; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card:hover .playIconWrapper {
+  opacity: 1;
+}
+
+.playIcon {
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family-2);
+}
+
+.percentage {
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #e0e0e0;
+  text-transform: capitalize;
+  text-align: center;
+  /* padding-bottom: 10px; */
+}
+
+.link {
+  color: #f97316;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* PLAY ICON WITH ANIMATION START */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+/* PlayIcon.module.css */
+.playIconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px; /* Reduced from 100px */
+  height: 60px; /* Reduced from 100px */
+  border-radius: 50%;
+}
+
+.playIcon {
+  width: 48px; /* Reduced from 80px */
+  height: 48px; /* Reduced from 80px */
+  /* background-color: var(--color-theme); */
+  background: var(--background);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse 1.5s ease-out infinite;
+  cursor: pointer;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent; /* Reduced from 15px */
+  border-bottom: 9px solid transparent; /* Reduced from 15px */
+  border-left: 15px solid #fff; /* Reduced from 25px */
+  margin-left: 3px; /*Reduced from 5px */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    /* box-shadow: 0 0 0 0 rgba(71, 255, 80, 0.7); */
+    box-shadow: 0 0 0 0 rgba(10, 80, 107, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 9px rgba(255, 99, 71, 0); /* Reduced from 15px */
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(74, 255, 71, 0);
+  }
+}
+
+/* PLAY ICON WITH ANIMATION END */
+
+@media (max-width: 992px) {
+  .playIconWrapper {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 568px) {
+  .cardSection {
+    margin-top: 2rem;
+  }
+}

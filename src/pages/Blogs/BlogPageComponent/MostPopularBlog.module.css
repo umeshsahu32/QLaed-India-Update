@@ -1,0 +1,74 @@
+.mostPopularContent {
+  background: #161515;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.mostPopularContent h3 {
+  text-align: center;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.mostPopularContent ul {
+  list-style: none;
+  width: 100%;
+}
+.mostPopularContent ul li {
+  padding: 1.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.mostPopularContent ul li:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.mostPopularContent ul li:hover {
+  background-color: #303030;
+}
+
+.blog_list {
+  color: #e3ff59;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blog_list span {
+  background: var(--background);
+  color: #fff;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.blog_title p:first-child {
+  font-size: 1.1rem;
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+/* .blog_title p:last-child {
+  font-size: 1rem;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+} */
+
+@media (max-width: 1200px) {
+  .mostPopularContent {
+    display: none;
+  }
+}

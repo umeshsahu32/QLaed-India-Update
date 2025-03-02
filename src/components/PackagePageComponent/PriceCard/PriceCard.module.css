@@ -1,0 +1,186 @@
+.section21 {
+  padding: 50px 0;
+  margin-top: 4rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  perspective: 1000px;
+  margin-top: 4rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: rgb(17, 27, 21) 0px 20px 30px -10px;
+  transition: all 0.3s ease;
+  width: 280px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.card h3 {
+  text-transform: uppercase;
+}
+
+.card h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+  background: var(--background);
+  background-clip: text;
+  color: transparent;
+}
+
+.center_head {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #fff !important;
+}
+
+.featuredStrip {
+  position: absolute;
+  top: 20px;
+  left: -35px;
+  background-color: var(--color-theme);
+  color: white;
+  padding: 3px 40px;
+  font-size: 0.8rem;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.centerCard {
+  background: var(--background);
+  color: white;
+  height: 350px;
+  z-index: 2;
+  position: relative;
+}
+
+.handshakeIcon {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+.clientsText {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.purchaseBtn {
+  background: var(--background);
+  border: none;
+  color: var(--color-white);
+  padding: 10px 10px;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.purchaseBtn:hover {
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.05);
+}
+
+.purchaseBtnCenter {
+  background: #fff;
+  border: none;
+  color: var(--color-theme);
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.purchaseBtnCenter:hover {
+  box-shadow: 0 0 20px #157abd46;
+  transform: scale(1.05);
+}
+
+.sideCard {
+  opacity: 0;
+  transform: translateZ(-100px) translateX(100px);
+  transition: all 1s ease;
+}
+
+.sideCard.show {
+  opacity: 1;
+  transform: translateZ(0) translateX(0);
+}
+
+.sideCard:first-child {
+  transform: translateZ(-100px) translateX(-100px);
+}
+
+.sideCard:first-child.show {
+  transform: translateZ(0) translateX(0);
+}
+
+@media (max-width: 992px) {
+  .card {
+    padding: 30px 15px;
+    width: 220px;
+    height: 330px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 1000px;
+    padding: 0 3rem;
+  }
+
+  .card {
+    padding: 30px;
+    width: 280px;
+    height: 330px;
+  }
+}
+
+@media (max-width: 528px) {
+  .section21 {
+    margin-top: 8rem;
+  }
+  .cardContainer {
+    gap: 40px;
+    margin-top: 4rem;
+  }
+
+  .card {
+    padding: 30px;
+    width: 280px;
+    height: 330px;
+  }
+}

@@ -1,0 +1,38 @@
+.carousel {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pill {
+  padding: 12px 22px;
+  background: transparent;
+  border-radius: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  color: var(--color-theme);
+  border: 1px solid var(--color-theme);
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  will-change: transform;
+}
+
+.active,
+.pill:hover {
+  background: var(--background);
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+@media (max-width: 380px) {
+  .pill {
+    padding: 8px 18px;
+    font-size: 24px;
+  }
+}

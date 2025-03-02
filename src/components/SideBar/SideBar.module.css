@@ -1,0 +1,174 @@
+.sidebarContact {
+  position: fixed;
+  top: 50%;
+  right: -350px;
+  transform: translateY(-50%);
+  width: 350px;
+  height: auto;
+  padding: 30px 40px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  transition: 0.5s;
+  z-index: 1000;
+  /* background: var(--background); */
+  background-color: var(--color-primary);
+}
+
+.hideSidebar {
+  display: none;
+}
+
+.active {
+  right: 0;
+}
+
+.scroll {
+  margin-top: 1rem;
+}
+
+.sidebarContact input,
+.sidebarContact textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-white);
+  outline: none;
+  background-color: transparent;
+  color: var(--color-white);
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+::placeholder {
+  color: var(--color-white);
+  opacity: 1; /* Firefox */
+}
+
+.sidebarContact h2 {
+  color: var(--color-white);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.horizontalLineForm {
+  border-bottom: 2px solid var(--color-white);
+  width: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.sidebarContact textarea {
+  height: 60px;
+  resize: none;
+  margin-bottom: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebarContact button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--background);
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  border-radius: 20px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebarContact button:hover {
+  background-color: var(--color-button-2);
+  text-decoration: none;
+  box-shadow: 0 0 10px #05791e50;
+  transform: scale(1.1);
+}
+
+.toggle {
+  position: absolute;
+  width: 50px;
+  padding: 1rem 0;
+  text-align: center;
+  cursor: pointer;
+  background: var(--background);
+  top: 0;
+  right: 350px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.toggle:before {
+  content: "GET QUOTES";
+  font-size: 16px;
+  color: var(--color-white);
+  height: auto;
+  writing-mode: vertical-lr;
+  display: inline-block;
+  text-orientation: mixed;
+  font-weight: 700;
+}
+
+.toggle.active:before {
+  content: "CLOSE";
+}
+
+.disclaimer {
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.responseMessage {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 14px 0;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+@media (max-width: 568px) {
+  .sidebarContact {
+    width: 280px;
+    right: -280px;
+    padding: 20px;
+    top: 55%;
+  }
+  .active {
+    right: 0;
+  }
+
+  .sidebarContact .toggle {
+    right: 280px;
+  }
+
+  .toggle {
+    width: 30px;
+    padding: 0.5rem 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .toggle:before {
+    font-size: 12px;
+  }
+
+  .sidebarContact h2 {
+    font-size: 1rem;
+  }
+
+  .horizontalLineForm {
+    width: 50px;
+  }
+
+  .sidebarContact input,
+  .sidebarContact textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}

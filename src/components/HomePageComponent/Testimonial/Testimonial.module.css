@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 4rem auto;
+  max-width: 1200px;
+}
+
+.youtube_video {
+  width: 20rem;
+  height: 30rem;
+  transition: transform 0.3s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 8px;
+}
+
+.youtube_video:hover {
+  transform: translateY(-8px);
+}
