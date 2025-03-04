@@ -30,10 +30,24 @@ const BlogText = ({ blogDetails }) => {
                 {block.text}
               </h4>
             );
+          // case "paragraph":
+          //   return (
+          //     <p className={styles.paragraph} key={index}>
+          //       {block.text}
+          //     </p>
+          //   );
           case "paragraph":
+            const textParts = block.text.split(":");
             return (
               <p className={styles.paragraph} key={index}>
-                {block.text}
+                {textParts.length > 1 ? (
+                  <>
+                    <strong>{textParts[0]} :</strong>
+                    {textParts.slice(1).join(":")}
+                  </>
+                ) : (
+                  block.text
+                )}
               </p>
             );
           case "image":
