@@ -45,9 +45,6 @@ const SideBar = () => {
       },
       body: json,
     }).then((res) => res.json());
-
-    console.log("res", res);
-
     if (res.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();
@@ -60,7 +57,6 @@ const SideBar = () => {
   // const onSubmit = async (event) => {
   //   event.preventDefault();
   //   const form = event.target;
-  //   console.log("btnClicked", form);
   //   const formData = new FormData(form);
   //   setResult("Sending....");
 
@@ -74,9 +70,6 @@ const SideBar = () => {
   //     );
 
   //     const data = await response.json();
-
-  //     console.log("data==>", data);
-
   //     if (data.success) {
   //       setResult("Form submitted successfully.");
   //       form.reset();
@@ -134,9 +127,8 @@ const SideBar = () => {
             required
           ></textarea>
           <p className={styles.disclaimer}>
-            I authorise AOB Sales Entreprise & its representatives to contact me
-            with updates and notifications via Email/SMS/WhatsApp/Call. This
-            will override DND/NDNC.
+            I authorise QLead to contact me with updates and notifications via
+            Email/SMS/WhatsApp/Call. This will override DND/NDNC.
           </p>
           <p className={styles.responseMessage}>{result}</p>
           <div className={styles.btn}>

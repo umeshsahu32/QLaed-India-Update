@@ -14,7 +14,7 @@ const MoreBlogCard = ({ item }) => {
         <p className={styles.cardDescription}>{item.description}</p>
         <div className={styles.cardFooter}>
           <div>
-            <p className={styles.authorName}>{item.author}</p>
+            {/* <p className={styles.authorName}>{item.author}</p> */}
             <p className={styles.cardDate}>{item.date}</p>
           </div>
           <Link

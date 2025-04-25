@@ -9,7 +9,7 @@ const ParallaxSection = () => {
       <div className={styles.imageOverlay}></div>
       <div className={styles.contentContainer}>
         <h1 className={styles.heading}>
-          Get Started with AOB India's Qualified Lead Generation Service
+          Get Started with QLead's Qualified Lead Generation Service
         </h1>
         <p className={styles.paragraph}>
           Ready to transform your lead generation strategy and drive business
@@ -18,9 +18,9 @@ const ParallaxSection = () => {
           meet your specific criteria.
         </p>
         {/* <Link to="/contact-us" className={styles.ctaButton}>
-          Join the AOB India Family
+          Join the QLead Family
         </Link> */}
-        <LinkButton path="contact-us" text="Join the AOB India Family" />
+        <LinkButton path="contact-us" text="Join the QLead Family" />
       </div>
     </div>
   );

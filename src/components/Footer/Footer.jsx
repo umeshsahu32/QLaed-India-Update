@@ -32,16 +32,16 @@ const Footer = () => {
       path: "https://www.linkedin.com/company/qlead-ai/",
       icon: <FaLinkedin />,
     },
-    {
-      id: 5,
-      path: "https://theaobway.blogspot.com",
-      icon: <FaBlogger />,
-    },
-    {
-      id: 6,
-      path: "https://kosin.academia.edu/PraveenKumar",
-      icon: <FaA />,
-    },
+    // {
+    //   id: 5,
+    //   path: "https://theaobway.blogspot.com",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: 6,
+    //   path: "https://kosin.academia.edu/PraveenKumar",
+    //   icon: <FaA />,
+    // },
   ];
 
   return (
@@ -50,7 +50,7 @@ const Footer = () => {
         <div className={styles.footerColumn}>
           <h4>QLead</h4>
           <p>
-            79/5,6,7, Capital Building, 7-1-79,
+            {/* 79/5,6,7, Capital Building, 7-1-79,
             <br />
             Swathi Avenue, Ameerpet,
             <br />
@@ -58,8 +58,8 @@ const Footer = () => {
             <br />
             <br />
             <strong>Phone:</strong> +91-9004097385
-            <br />
-            <strong>Email:</strong> accounts@aobsales.com
+            <br /> */}
+            <strong>Email:</strong> digital@qlead.ai
             <br />
           </p>
           <div className={styles.socialLinks}>
@@ -158,14 +158,14 @@ const Footer = () => {
           <Link to="/contact-us" className={styles.footerLink}>
             Contact Us
           </Link>{" "}
-          <br />
+          {/* <br />
           <a
             href="https://aobsales.com/"
             target="_blank"
             className={styles.footerLink}
           >
-            AOB India
-          </a>
+            QLead
+          </a> */}
         </div>
       </footer>
       <section className={styles.copyright_section}>

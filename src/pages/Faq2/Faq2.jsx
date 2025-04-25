@@ -36,9 +36,7 @@ const Faq2 = () => {
     <Fragment>
       <div className={styles.heading_container}>
         <SectionHeading heading="Frequently Asked Questions" />
-        <p>
-          These are the most commonly asked questions about AOB India QLead.
-        </p>
+        <p>These are the most commonly asked questions about QLead.</p>
         <p>
           Can't find what you're looking for?{" "}
           <Link to="/contact-us">Contact Our Team</Link>{" "}

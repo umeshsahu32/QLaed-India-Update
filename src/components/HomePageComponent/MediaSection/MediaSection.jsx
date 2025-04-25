@@ -22,22 +22,22 @@ const MediaSection = () => {
       id: 2,
       image: image5,
       date: "October 15, 2024 ",
-      title: "AOB India",
+      title: "QLead",
       category: "CNBC TV18",
       link: "https://www.cnbctv18.com/market/stock-market-live-updates-nifty-50-sensex-today-reliance-ril-q2-hcltech-hdfc-life-hyundai-ipo-angel-one-share-price-liveblog-19492794.htm",
       description:
         "Sensex Today | Stock Market LIVE Updates: QLead achieves sales worth ₹460 crore",
     },
-    {
-      id: 3,
-      image: image3,
-      date: "July 02, 2020",
-      title: "AOB India",
-      category: "Your Story",
-      link: "https://yourstory.com/2020/07/sales-outsourcing-reliable-startups",
-      description:
-        "Here’s how this sales outsourcing agency is becoming the most reliable partner for startups",
-    },
+    // {
+    //   id: 3,
+    //   image: image3,
+    //   date: "July 02, 2020",
+    //   title: "QLead",
+    //   category: "Your Story",
+    //   link: "https://yourstory.com/2020/07/sales-outsourcing-reliable-startups",
+    //   description:
+    //     "Here’s how this sales outsourcing agency is becoming the most reliable partner for startups",
+    // },
   ];
 
   return (

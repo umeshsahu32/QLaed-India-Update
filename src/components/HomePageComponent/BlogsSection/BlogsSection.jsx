@@ -40,7 +40,7 @@ const BlogsSection = () => {
                   <p className={styles.cardDescription}>{item.description}</p>
                   <div className={styles.cardFooter}>
                     <p className={styles.cardDate}>{item.date}</p>
-                    <p className={styles.cardDate}>{item.author}</p>
+                    {/* <p className={styles.cardDate}>{item.author}</p> */}
                     {/* <Link
                     to={`/blog/${item.title.replace(/ /g, "-")}`}
                     className={styles.cardLink}

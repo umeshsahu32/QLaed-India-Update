@@ -3,7 +3,7 @@ export const TimelineData = [
     title: "2014",
     subtitle: "The Inception",
     description:
-      "AOB India was founded with a clear vision to revolutionize the sales outsourcing landscape. Our mission was to provide businesses with tailored sales solutions that drive growth and enhance operational efficiency. Starting with a small but dedicated team, we focused on understanding the unique needs of each client and delivering personalized strategies.",
+      "QLead was founded with a clear vision to revolutionize the sales outsourcing landscape. Our mission was to provide businesses with tailored sales solutions that drive growth and enhance operational efficiency. Starting with a small but dedicated team, we focused on understanding the unique needs of each client and delivering personalized strategies.",
   },
   {
     title: "2016",
@@ -33,7 +33,7 @@ export const TimelineData = [
     title: "2024",
     subtitle: "A Decade of Excellence",
     description:
-      "As we celebrate our 10th anniversary, AOB India continues to lead the way in sales outsourcing innovation. With a robust portfolio of AI-driven technologies and a dedicated team of experts, we remain committed to delivering unparalleled sales solutions that drive growth and success for our clients.",
+      "As we celebrate our 10th anniversary, QLead continues to lead the way in sales outsourcing innovation. With a robust portfolio of AI-driven technologies and a dedicated team of experts, we remain committed to delivering unparalleled sales solutions that drive growth and success for our clients.",
   },
   {
     title: "2026",

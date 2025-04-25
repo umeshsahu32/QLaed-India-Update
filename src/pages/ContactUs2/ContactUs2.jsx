@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import styles from "./ContactUs2.module.css";
 import { AiOutlineDownload } from "react-icons/ai";
 import image1 from "../../assets/contact/browser.webp";
-import samplePdf from "../../assets/contact/QLead_Corporate_Oct 2024.pdf";
+import QLead_Corporate from "../../assets/contact/QLead_Corporate.pdf";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -82,9 +82,6 @@ const ContactUs2 = () => {
         },
         body: json,
       }).then((res) => res.json());
-
-      console.log("res", res);
-
       if (res.success) {
         localStorage.setItem("formSubmit", true);
         addNotification(
@@ -147,7 +144,7 @@ const ContactUs2 = () => {
             cup of tea.
           </p>
           <a
-            href={samplePdf}
+            href={QLead_Corporate}
             download
             className={styles.downloadButton}
             onClick={handleDownload}
@@ -250,9 +247,8 @@ const ContactUs2 = () => {
             </div>
           </div>
           <p className={styles.disclaimer}>
-            I authorise AOB Sales Entreprise & its representatives to contact me
-            with updates and notifications via Email/SMS/WhatsApp/Call. This
-            will override DND/NDNC.
+            I authorise QLead to contact me with updates and notifications via
+            Email/SMS/WhatsApp/Call. This will override DND/NDNC.
           </p>
           {/* <button
           onClick={(e) => submitBtnHandler(e)}

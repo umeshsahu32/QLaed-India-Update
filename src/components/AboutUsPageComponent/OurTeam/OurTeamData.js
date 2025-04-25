@@ -14,7 +14,7 @@ export const TeamData = [
     role: "AI - Chief Mentor & Angel Investor",
     image: team1,
     description:
-      "Vijay Pandey, an IIT Kanpur alumnus with more than three decades of leadership experience, serves as the Chief Mentor & Angel Investor at AOB India. His prestigious career includes roles as former President of Purvankara Group and CEO of Essel Group. Vijay's deep expertise and visionary leadership are instrumental in mentoring the team and strategically propelling AOB India towards groundbreaking futures.",
+      "Vijay Pandey, an IIT Kanpur alumnus with more than three decades of leadership experience, serves as the Chief Mentor & Angel Investor at QLead. His prestigious career includes roles as former President of Purvankara Group and CEO of Essel Group. Vijay's deep expertise and visionary leadership are instrumental in mentoring the team and strategically propelling QLead towards groundbreaking futures.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -84,7 +84,7 @@ export const TeamData = [
     role: "AVP - Operations",
     image: team6,
     description:
-      "Chandini Singh, an MBA graduate from the Indian School of Business, currently serves as the assistant Vice President of Operations at AOB India. With an illustrious career featuring leadership roles at Reliance, Karvy, and Aegis, Chandini brings unparalleled expertise in customer journey mapping. Her strategic insights and innovative approaches are integral to enhancing operational efficiencies and customer experiences at AOB India.",
+      "Chandini Singh, an MBA graduate from the Indian School of Business, currently serves as the assistant Vice President of Operations at QLead. With an illustrious career featuring leadership roles at Reliance, Karvy, and Aegis, Chandini brings unparalleled expertise in customer journey mapping. Her strategic insights and innovative approaches are integral to enhancing operational efficiencies and customer experiences at QLead.",
     socials: {
       twitter: "#",
       facebook: "#",

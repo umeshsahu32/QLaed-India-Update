@@ -10,9 +10,9 @@ const BlogData = [
   {
     id: 1,
     title:
-      "AOB India – The Most Reliable Sales Outsourcing Partner For Any Business",
+      "QLead – The Most Reliable Sales Outsourcing Partner For Any Business",
     description:
-      "AOB India is a unique sales outsourcing company, having presence across India, that cannot only recruit, train, deploy, manage and sell on your behalf, but also help you in collecting the payment.",
+      "QLead is a unique sales outsourcing company, having presence across India, that cannot only recruit, train, deploy, manage and sell on your behalf, but also help you in collecting the payment.",
     image: image1,
     link: "https://economictimes.indiatimes.com/aob-india-the-most-reliable-sales-outsourcing-partner-for-any-business/articleshow/76499205.cms?from=mdr",
     platform: "Economics Times",
@@ -21,9 +21,9 @@ const BlogData = [
   {
     id: 2,
     title:
-      "AOB INDIA: A PATHBREAKING INITIATIVE, EFFICIENTLY DELIVERING OUTSOURCING SERVICE IN SALES",
+      "QLead: A PATHBREAKING INITIATIVE, EFFICIENTLY DELIVERING OUTSOURCING SERVICE IN SALES",
     description:
-      "India’s first Sales Outsourcing Agency, AOB India is a noble venture of Xanthippe Creations. It is committed to contribute in the growth story of India, generate employment opportunities,driving growth and empowering the business associates, employees,partners and the customers.",
+      "India’s first Sales Outsourcing Agency, QLead is a noble venture of Xanthippe Creations. It is committed to contribute in the growth story of India, generate employment opportunities,driving growth and empowering the business associates, employees,partners and the customers.",
     image: image2,
     link: "https://primeview.co/aob-india-a-pathbreaking-initiative-efficiently-delivering-outsourcing-service-in-sales/",
     platform: "Primeview",

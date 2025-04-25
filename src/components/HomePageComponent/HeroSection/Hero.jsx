@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import styles from "./Hero.module.css";
-import video from "../../../assets/video/hero-section-video.mp4";
+import video from "../../../assets/video/update-hero-video.mp4";
 import { Link } from "react-router-dom";
 
 const Hero = () => {

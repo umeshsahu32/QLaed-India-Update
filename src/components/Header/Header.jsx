@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import QLead_India_logo from "../../assets/images/QLead-logo.png";
+import QLead_India_logo from "../../assets/images/qlead-logo-updated.png";
 import styles from "./Header.module.css";
 import { AiFillHome } from "react-icons/ai";
 import { FaHandshake } from "react-icons/fa6";
@@ -124,16 +124,16 @@ const Header = () => {
       path: "https://www.linkedin.com/company/qlead-ai/",
       icon: <FaLinkedin />,
     },
-    {
-      id: 5,
-      path: "https://theaobway.blogspot.com",
-      icon: <FaBlogger />,
-    },
-    {
-      id: 6,
-      path: "https://kosin.academia.edu/PraveenKumar",
-      icon: <FaA />,
-    },
+    // {
+    //   id: 5,
+    //   path: "https://theaobway.blogspot.com",
+    //   icon: <FaBlogger />,
+    // },
+    // {
+    //   id: 6,
+    //   path: "https://kosin.academia.edu/PraveenKumar",
+    //   icon: <FaA />,
+    // },
   ];
 
   // @ JSX START

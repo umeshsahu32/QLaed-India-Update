@@ -11,7 +11,7 @@ const BlogHeader = ({ blogDetails }) => {
           <h3>{blogDetails?.title}</h3>
           <p>{blogDetails?.description}</p>
           <div className={styles.authorContainer}>
-            <span>{blogDetails?.author}</span>
+            {/* <span>{blogDetails?.author}</span> */}
             <span>{blogDetails?.date}</span>
           </div>
         </div>
