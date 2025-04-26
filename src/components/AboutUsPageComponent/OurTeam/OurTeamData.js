@@ -1,20 +1,24 @@
-import team1 from "../../../assets/images/team/team-1.jpeg";
-import team2 from "../../../assets/images/team/Dr.Praveen.jpg";
-import team3 from "../../../assets/images/team/Sharmila.jpg";
-import team4 from "../../../assets/images/team/team-3.jpg";
-import team5 from "../../../assets/images/team/team-4.jpg";
-import team6 from "../../../assets/images/team/Chandini.jpeg";
-import team7 from "../../../assets/images/team/Bhargav.jpg";
-import team8 from "../../../assets/images/team/Chandhan.jpg";
+import team1 from "../../../assets/images/team/Syed_Ziyauddin.jpeg";
+import team2 from "../../../assets/images/team/Ambakandi_Anusha.jpeg";
+import team3 from "../../../assets/images/team/Sumithra_Chindukuri.jpeg";
+import team4 from "../../../assets/images/team/Kakarla_Chaithanya_Kumar_Reddy.jpg";
+import team5 from "../../../assets/images/team/Mary_Vathsalya_Allu.jpeg";
+import team6 from "../../../assets/images/team/Nakka_Jayalakshmi.jpeg";
+import team7 from "../../../assets/images/team/Annam_Badri.jpg";
+import team8 from "../../../assets/images/team/Christine_Skopec.jpg";
+import team9 from "../../../assets/images/team/Jonathan_Meyer.jpeg";
+import team10 from "../../../assets/images/team/Alisha_Ferandes.jpeg";
 
 export const TeamData = [
   {
     id: 1,
-    name: "Vijay Pandey",
-    role: "AI - Chief Mentor & Angel Investor",
+    name: "Syed Ziyauddin",
+    role: "Sales Architect",
     image: team1,
+    experience: "5+ years",
+    sales_Achieved: "₹1.2 Cr+",
     description:
-      "Vijay Pandey, an IIT Kanpur alumnus with more than three decades of leadership experience, serves as the Chief Mentor & Angel Investor at QLead. His prestigious career includes roles as former President of Purvankara Group and CEO of Essel Group. Vijay's deep expertise and visionary leadership are instrumental in mentoring the team and strategically propelling QLead towards groundbreaking futures.",
+      "A key performer at QLead, Syed has led high-value B2B sales campaigns. His deep market insight and client management skills have driven large enterprise deals and long-term partnerships.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -24,11 +28,13 @@ export const TeamData = [
   },
   {
     id: 2,
-    name: "Dr. Praveen Kumar",
-    role: "Founder & Chief Sales Architect",
+    name: "Ambakandi Anusha",
+    role: "Sales Architect",
     image: team2,
+    experience: "4+ years",
+    sales_Achieved: "₹90 Lakhs+",
     description:
-      "Dr. Praveen Kumar brings over 20 years of profound expertise in global sales roles at notable companies such as DuPont, GSK, and P&G. An engineering graduate from Bannariamman Institute of Technology, with an MBA from PSG Institute of Management and a Ph.D. in Artificial Intelligence from the University of Kosin, Dr. Kumar is a venerated leader in transforming sales strategies through innovative approaches.",
+      "Anusha has a strong track record in corporate sales, with a specialty in building custom sales funnels. Her strategies have increased lead conversions by 35% over the past year.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -38,11 +44,13 @@ export const TeamData = [
   },
   {
     id: 3,
-    name: "Sharmila Rajya Lakshmi",
-    role: "Co-founder / Brand Director",
+    name: "Sumithra Chindukuri",
+    role: "Sales Architect – Inside Sales",
+    experience: "3.5+ years",
+    sales_Achieved: "₹80 Lakhs+",
     image: team3,
     description:
-      "Creative visionary with over 15 years of experience in leading creative teams and delivering innovative branding solutions. Adept at developing and executing creative strategies that resonate with target audiences and drive brand growth. Proven ability to manage multidisciplinary teams, ensuring cohesive and impactful outcomes. Experienced in leveraging AI tools to enhance creative processes and improve team productivity. Skilled in orchestrating 360-degree marketing campaigns across online and offline platforms.",
+      "Sumithra’s follow-up consistency and data-driven prospecting have made her a standout in Inside Sales. She's closed multiple accounts with high lifetime value and improved upsell rates.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -52,11 +60,13 @@ export const TeamData = [
   },
   {
     id: 4,
-    name: "David Appaswamy",
-    role: "Digital Transformation Consultant",
+    name: "Kakarla Chaithanya Kumar Reddy",
+    role: "Sales Architect – Inside Sales",
     image: team4,
+    experience: "3+ years",
+    sales_Achieved: "₹70 Lakhs+",
     description:
-      "David Appaswamy, an alumnus of IIM Ahmedabad, has extensive experience in General Management, Business Strategy, Brand & Marketing Management, and Sales. His work includes influential policy development with the International Chamber of Commerce and the Internet Governance Forum. A seasoned speaker, David has shared his insights at global platforms such as WSIS and IGF.",
+      "Chaithanya is known for his quick thinking and personalized pitch strategies. He played a key role in onboarding three top-tier clients within a short period.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -66,11 +76,13 @@ export const TeamData = [
   },
   {
     id: 5,
-    name: "Christine Skopec",
-    role: "Financial Modeling Consultant",
+    name: "Mary Vathsaly Allu",
+    role: "Sales Architect",
     image: team5,
+    experience: "2.5+ years",
+    sales_Achieved: "₹90 Lakhs+",
     description:
-      "Christine Skopec is a skilled digital writer, editor, marketer, and content strategist known for her dedication to clean, organized copy and meeting tight deadlines. Her expertise in crafting compelling financial narratives and strategic content plays a pivotal role in enhancing our company's market presence and client engagement strategies.",
+      "Mary has consistently met quarterly targets and is appreciated for building strong post-sale relationships. Her work has led to multiple referral leads and repeat business.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -80,11 +92,13 @@ export const TeamData = [
   },
   {
     id: 6,
-    name: "Chandini Singh",
-    role: "AVP - Operations",
+    name: "Nakka Jayalakshmi",
+    role: "Sales Architect",
     image: team6,
+    experience: "2+ years",
+    sales_Achieved: "₹35 Lakhs+",
     description:
-      "Chandini Singh, an MBA graduate from the Indian School of Business, currently serves as the assistant Vice President of Operations at QLead. With an illustrious career featuring leadership roles at Reliance, Karvy, and Aegis, Chandini brings unparalleled expertise in customer journey mapping. Her strategic insights and innovative approaches are integral to enhancing operational efficiencies and customer experiences at QLead.",
+      "Jayalakshmi is detail-oriented and known for precise client targeting. Her consistent follow-ups and tailored product demos have led to impressive conversions, especially in mid-market segments.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -94,11 +108,30 @@ export const TeamData = [
   },
   {
     id: 7,
-    name: "Sakalya Bhargava Satvik Sarma",
-    role: "AI - Digital Marketing Architect",
+    name: " Annam Badri",
+    role: "Recruitment Trainee",
     image: team7,
+    experience: "Fresh Joiner",
+    sales_Achieved: null,
     description:
-      "Bhargava is an AI Marketing and Digital strategy specialist. His multidisciplinary background and certifications create a formidable skill set. His Adobe Marketo and Oracle cloud marketing certifications further solidify his expertise in AI digital lead generation via Miyabi way along with deep understanding on Programmatic Advertising, enabling him to craft targeted and effective campaigns. A master in Account Based Marketing (ABM) strategy and execution.",
+      "Annam has recently joined as a Recruitment Trainee. With a proactive approach, Badri has already initiated several candidate shortlists and contributed to improving the hiring process through better candidate experience coordination.",
+    socials: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+  },
+
+  {
+    id: 9,
+    name: "Jonathan Meyer",
+    role: "Senior Sales Strategist",
+    image: team9,
+    experience: "8+ years in SaaS & enterprise sales across Europe",
+    sales_Achieved: "€2.5M+ in strategic B2B deals",
+    description:
+      "Jonathan specializes in scaling sales operations across EU markets. Known for his sharp negotiation tactics and multilingual outreach, he has been instrumental in bringing large tech clients into QLead’s ecosystem and setting up strategic partnerships abroad.",
     socials: {
       twitter: "#",
       facebook: "#",
@@ -108,11 +141,31 @@ export const TeamData = [
   },
   {
     id: 8,
-    name: "Chandan Singh",
-    role: "Director - Strategic Partnerships",
+    name: "Christine Skopec",
+    role: "AI Sales Consultant & Coach",
     image: team8,
+    experience: "6+ years in AI-driven sales enablement",
+    sales_Achieved:
+      "Helped boost team conversions by 40% using AI coaching methods",
     description:
-      "International Global expertise for over 25+ years in Sales, Marketing & Startup project execution in GSM Telecom Network launch, Retail Channel Formulation, Real Estate & Architect Design/ Project analyst, Spa & Wellness management. Worked for top brands like Dabur India Ltd, Bharti Airtel PAN India Operations, Emirates Telecom as UAE National Head S&M, Middle East & Africa with 38+ Countries in Operations, Real Estate Business Head for Silpa Infratech Ltd., Kohinoor Group & Aditya Construction Company in Hyderabad.",
+      "Christine brings a global perspective to QLead with her deep expertise in AI-enhanced sales processes. She coaches the team on using data-driven approaches, conversation intelligence tools, and sales automation techniques—elevating both individual performance and overall sales efficiency.",
+    socials: {
+      twitter: "#",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    id: 10,
+    name: "Alisha Fernandes",
+    role: "International Sales Coach",
+    image: team10,
+    experience: "7+ years in training & enablement",
+    sales_Achieved:
+      "Improved sales team productivity by 50% through smart CRM + AI training",
+    description:
+      "Alisha is a powerhouse when it comes to bridging technology with talent. She’s led global bootcamps and designed scalable sales playbooks tailored to AI-enhanced CRMs. Her workshops at QLead have redefined onboarding and ongoing skill upgrades.",
     socials: {
       twitter: "#",
       facebook: "#",

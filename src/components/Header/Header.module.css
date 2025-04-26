@@ -250,6 +250,14 @@
 }
 
 @media (max-width: 480px) {
+  .navBranding img {
+    width: 40%;
+  }
+
+  .navbar {
+    padding: 0 5%;
+  }
+
   .drawer {
     width: 300px;
   }

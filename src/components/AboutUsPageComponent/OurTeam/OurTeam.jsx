@@ -4,14 +4,31 @@ import SectionHeading from "../../SectionHeading/SectionHeading";
 import { TeamData } from "./OurTeamData";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-const TeamMember = ({ name, role, image, description, socials }) => (
+const TeamMember = ({
+  name,
+  role,
+  image,
+  description,
+  experience,
+  sales_Achieved,
+  socials,
+}) => (
   <div className={styles.card}>
     <div className={styles.imageContainer}>
       <img src={image} alt={name} className={styles.image} />
     </div>
     <div className={styles.infoContainer}>
       <h3 className={styles.name}>{name}</h3>
-      <p className={styles.role}>{role}</p>
+      <p className={styles.role1}>
+        {role} | {experience}
+      </p>
+      {sales_Achieved && (
+        <strong className={styles.role}>
+          {`${sales_Achieved} ${
+            sales_Achieved.includes("₹") ? "Sales Achieved" : ""
+          }`}
+        </strong>
+      )}
       <div className={styles.separator}></div>
       <p className={styles.description}>{description}</p>
       {/* <div className={styles.socials}>
