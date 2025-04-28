@@ -46,10 +46,11 @@
 }
 
 .logo_transform {
-  width: 50%;
+  width: 30%;
   height: auto;
   object-fit: cover;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .story_container {

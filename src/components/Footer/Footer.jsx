@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
+import QLead_India_logo from "../../assets/images/qlead-logo-updated.png";
 import {
   FaFacebook,
   FaInstagram,
@@ -48,7 +49,8 @@ const Footer = () => {
     <Fragment>
       <footer className={styles.footer}>
         <div className={styles.footerColumn}>
-          <h4>QLead</h4>
+          {/* <h4>QLead</h4> */}
+          <img src={QLead_India_logo} alt="QLead Logo" />
           <p>
             {/* 79/5,6,7, Capital Building, 7-1-79,
             <br />

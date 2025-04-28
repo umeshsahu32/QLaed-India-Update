@@ -15,7 +15,7 @@ export const TeamData = [
     name: "Syed Ziyauddin",
     role: "Sales Architect",
     image: team1,
-    experience: "5+ years",
+    experience: "7+ years",
     sales_Achieved: "₹1.2 Cr+",
     description:
       "A key performer at QLead, Syed has led high-value B2B sales campaigns. His deep market insight and client management skills have driven large enterprise deals and long-term partnerships.",
@@ -31,7 +31,7 @@ export const TeamData = [
     name: "Ambakandi Anusha",
     role: "Sales Architect",
     image: team2,
-    experience: "4+ years",
+    experience: "5+ years",
     sales_Achieved: "₹90 Lakhs+",
     description:
       "Anusha has a strong track record in corporate sales, with a specialty in building custom sales funnels. Her strategies have increased lead conversions by 35% over the past year.",
@@ -63,7 +63,7 @@ export const TeamData = [
     name: "Kakarla Chaithanya Kumar Reddy",
     role: "Sales Architect – Inside Sales",
     image: team4,
-    experience: "3+ years",
+    experience: "4+ years",
     sales_Achieved: "₹70 Lakhs+",
     description:
       "Chaithanya is known for his quick thinking and personalized pitch strategies. He played a key role in onboarding three top-tier clients within a short period.",
@@ -76,10 +76,10 @@ export const TeamData = [
   },
   {
     id: 5,
-    name: "Mary Vathsaly Allu",
+    name: "Mary Vathsalya Allu",
     role: "Sales Architect",
     image: team5,
-    experience: "2.5+ years",
+    experience: "10+ years",
     sales_Achieved: "₹90 Lakhs+",
     description:
       "Mary has consistently met quarterly targets and is appreciated for building strong post-sale relationships. Her work has led to multiple referral leads and repeat business.",
@@ -95,7 +95,7 @@ export const TeamData = [
     name: "Nakka Jayalakshmi",
     role: "Sales Architect",
     image: team6,
-    experience: "2+ years",
+    experience: "6+ years",
     sales_Achieved: "₹35 Lakhs+",
     description:
       "Jayalakshmi is detail-oriented and known for precise client targeting. Her consistent follow-ups and tailored product demos have led to impressive conversions, especially in mid-market segments.",
@@ -109,9 +109,9 @@ export const TeamData = [
   {
     id: 7,
     name: " Annam Badri",
-    role: "Recruitment Trainee",
+    role: "Recruitment Manager",
     image: team7,
-    experience: "Fresh Joiner",
+    experience: "5+ years",
     sales_Achieved: null,
     description:
       "Annam has recently joined as a Recruitment Trainee. With a proactive approach, Badri has already initiated several candidate shortlists and contributed to improving the hiring process through better candidate experience coordination.",

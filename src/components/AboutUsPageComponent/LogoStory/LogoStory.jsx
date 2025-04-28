@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import SectionHeading from "../../SectionHeading/SectionHeading.jsx";
-import logo_transform from "../../../assets/images//logo-transform.jpeg";
+import logo_transform from "../../../assets/images/qlead-about-us.jpg";
 import logo_square from "../../../assets/images/qlead-logo-square.png";
 import styles from "./LogoStory.module.css";
 import { story_content, key_point } from "./LogoStoryData.js";
