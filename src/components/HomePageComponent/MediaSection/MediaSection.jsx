@@ -13,7 +13,7 @@ const MediaSection = () => {
       image: image4,
       date: "November 13, 2024",
       title: "e5world",
-      category: "Vaartha",
+      category: "Matribhumi Samachar",
       link: "https://matribhumisamachar.com/en/2024/11/13/aikhya-infra-developers-unveils-a-20-acre-oasis-of-resort-style-living-e5world-backed-by-the-promoters-of-ikf-finance/#google_vignette",
       description:
         "Aikhya Infra Developers unveils a 20-acre Oasis of Resort-Style living ‘e5world’, backed by the promoters of IKF Finance!",
