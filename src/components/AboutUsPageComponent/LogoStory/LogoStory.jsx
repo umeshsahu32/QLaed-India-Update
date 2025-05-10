@@ -40,9 +40,8 @@ const LogoStory = () => {
           <div className={styles.separator}></div>
           <p>
             The letter "Q" built into the structure reflects our name and our
-            process:
-            <b /> *Qualified* leads, not just random data. It also symbolizes
-            *questioning* — our AI interrogates every datapoint to ensure it
+            process: Qualified leads, not just random data. It also symbolizes
+            questioning — our AI interrogates every datapoint to ensure it
             matches your ideal customer profile before it lands in your inbox.
           </p>
           <b />

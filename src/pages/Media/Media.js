@@ -25,9 +25,9 @@ const MediaData = [
     date: "November 13, 2024",
     title: "e5World",
     category: "Vaartha",
-    link: "https://vaartha.com/416530/",
+    link: "https://matribhumisamachar.com/en/2024/11/13/aikhya-infra-developers-unveils-a-20-acre-oasis-of-resort-style-living-e5world-backed-by-the-promoters-of-ikf-finance/#google_vignette",
     description:
-      "Aikhya Infra Developers seeded 'e5world'. With the help of IKF finance this project will be completed in three phases",
+      "Aikhya Infra Developers unveils a 20-acre Oasis of Resort-Style living ‘e5world’, backed by the promoters of IKF Finance!",
   },
   {
     id: 19,

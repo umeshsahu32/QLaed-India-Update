@@ -32,7 +32,7 @@ export const TeamData = [
     role: "Sales Architect",
     image: team2,
     experience: "5+ years",
-    sales_Achieved: "₹90 Lakhs+",
+    sales_Achieved: "₹90 Lakh+",
     description:
       "Anusha has a strong track record in corporate sales, with a specialty in building custom sales funnels. Her strategies have increased lead conversions by 35% over the past year.",
     socials: {
@@ -47,7 +47,7 @@ export const TeamData = [
     name: "Sumithra Chindukuri",
     role: "Sales Architect – Inside Sales",
     experience: "3.5+ years",
-    sales_Achieved: "₹80 Lakhs+",
+    sales_Achieved: "₹80 Lakh+",
     image: team3,
     description:
       "Sumithra’s follow-up consistency and data-driven prospecting have made her a standout in Inside Sales. She's closed multiple accounts with high lifetime value and improved upsell rates.",
@@ -64,7 +64,7 @@ export const TeamData = [
     role: "Sales Architect – Inside Sales",
     image: team4,
     experience: "4+ years",
-    sales_Achieved: "₹70 Lakhs+",
+    sales_Achieved: "₹70 Lakh+",
     description:
       "Chaithanya is known for his quick thinking and personalized pitch strategies. He played a key role in onboarding three top-tier clients within a short period.",
     socials: {
@@ -80,7 +80,7 @@ export const TeamData = [
     role: "Sales Architect",
     image: team5,
     experience: "10+ years",
-    sales_Achieved: "₹90 Lakhs+",
+    sales_Achieved: "₹90 Lakh+",
     description:
       "Mary has consistently met quarterly targets and is appreciated for building strong post-sale relationships. Her work has led to multiple referral leads and repeat business.",
     socials: {
@@ -96,7 +96,7 @@ export const TeamData = [
     role: "Sales Architect",
     image: team6,
     experience: "6+ years",
-    sales_Achieved: "₹35 Lakhs+",
+    sales_Achieved: "₹35 Lakh+",
     description:
       "Jayalakshmi is detail-oriented and known for precise client targeting. Her consistent follow-ups and tailored product demos have led to impressive conversions, especially in mid-market segments.",
     socials: {
@@ -114,7 +114,7 @@ export const TeamData = [
     experience: "5+ years",
     sales_Achieved: null,
     description:
-      "Annam has recently joined as a Recruitment Trainee. With a proactive approach, Badri has already initiated several candidate shortlists and contributed to improving the hiring process through better candidate experience coordination.",
+      "Annam has recently joined as a Recruitment Manager with a proactive approach, Badri has already initiated several candidate shortlists and contributed to improving the hiring process through better candidate experience coordination.",
     socials: {
       twitter: "#",
       facebook: "#",

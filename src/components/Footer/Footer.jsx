@@ -20,7 +20,7 @@ const Footer = () => {
     },
     {
       id: 2,
-      path: "https://www.instagram.com/qleads.ai?igsh=MTVzeHA3Njg2NmVvZQ==",
+      path: "https://www.instagram.com/qlead_ai/",
       icon: <FaInstagram />,
     },
     {
