@@ -5,7 +5,8 @@
   color: transparent;
   font-size: 1.8rem;
   font-weight: 700;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
+  padding: 25px 0;
 }
 
 .heading2 {
@@ -14,7 +15,8 @@
   color: transparent;
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .heading3 {
@@ -23,7 +25,8 @@
   color: transparent;
   font-size: 1.2rem;
   font-weight: 400;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 0;
 }
 
 .heading4 {
@@ -38,7 +41,7 @@
 .paragraph {
   color: #303030;
   font-size: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 8px;
 }
 
 .imageBlock {
@@ -52,6 +55,7 @@
   list-style-type: disc;
   max-width: 90%;
   margin: 20px auto;
+  margin-bottom: 10px;
 }
 
 .bulletItem {
