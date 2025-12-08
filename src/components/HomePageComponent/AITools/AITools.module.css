@@ -1,10 +1,10 @@
 .section_container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 800px;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1400px;
   margin: auto;
   margin-top: 4rem;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .section_card {
@@ -61,35 +61,6 @@
   background: linear-gradient(to right, transparent, #fff);
 }
 
-/* .submitButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  color: var(--color-button-1);
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-.submitButton span {
-  margin-right: 10px;
-}
-
-.icon {
-  transition: transform 0.3s ease;
-}
-
-.submitButton:hover .icon {
-  transform: translateX(5px);
-}
-
-.submitButton:hover {
-  transform: translateX(5px);
-} */
-
 .submitButton {
   align-self: flex-end;
   padding: 10px 20px;
@@ -114,6 +85,7 @@
 @media (max-width: 840px) {
   .section_container {
     padding: 0 3rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

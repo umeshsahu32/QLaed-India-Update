@@ -35,4 +35,52 @@ export const AIToolsData = [
       "Harmonic analysis is used to monitor and evaluate conversations to ensures quality and compliance. This ensures the lead is truly qualified on all parameters.",
     ],
   },
+  {
+    id: 2,
+    primary_heading: "QLead Qbot",
+    secondary_heading: "What QBot Does",
+    image: HarmonicAnalysis,
+    desc: "QBot is QLead’s proprietary AI qualification engine that transforms raw enquiries into structured, sales-ready conversations – automatically and in real time. Our AI does what your best telecaller would do… but instantly, at scale, and without fatigue.",
+    primary_list: [
+      "Greets prospects instantly the moment they click your ad",
+      "Asks intelligent discovery questions automatically",
+      "Responds to FAQs using brand-approved content",
+      "Scores leads in real-time based on quality and intent",
+      "Schedules calls or meetings instantly",
+      // "Syncs complete transcripts directly into our CRM"
+    ],
+    secondary_list: [
+      "Up to 50–70% reduction in manual calling effort",
+      "24/7 availability — you never miss a prospect",
+      "<10 second response time — faster than any human team",
+      "Zero lead leakage",
+      // "Consistent qualification standards",
+      // "No dependency on caller quality. From ad click to CRM entry — everything happens in seconds, not hours.",
+    ],
+  },{
+    id: 3,
+    primary_heading: "AI-Powered CRM",
+    secondary_heading: "What Enters the CRM Automatically",
+    image: HarmonicAnalysis,
+    desc: "QLead’s AI doesn't just qualify leads — it organizes, stores, scores, and syncs everything automatically into our CRM. Every lead that QBot qualifies is instantly pushed into our CRM with full intelligence.",
+    primary_list: [
+      "Lead profile & captured fields",
+      "Qualification score",
+      "Buyer category (A / B / C)",
+      "Conversation summary",
+      // "Call recording & transcripts",
+      // "Meeting details",
+      // "Disposition status",
+      // "Lead source and tags"
+    ],
+    secondary_list: [
+      "100% automated data entry",
+      "No manual logging",
+      "No missed updates",
+      "Unified lead intelligence view",
+      // "Faster sales actions",
+      // "Cleaner reporting",
+      // "Stronger pipeline visibility",
+    ],
+  },
 ];
