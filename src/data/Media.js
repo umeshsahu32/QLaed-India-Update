@@ -2,9 +2,9 @@ import image1 from "../assets/images/media/media-1.jpg";
 import image2 from "../assets/images/media/media-2.jpg";
 import image3 from "../assets/images/media/media-3.webp";
 import image4 from "../assets/images/media/media-4.jpg";
-import image5 from "../assets/images/media/media-5.webp";
+import image5 from "../assets/images/media/media-5.png";
 import image6 from "../assets/images/media/media-6.jpg";
-import image7 from "../assets/images/media/media-7.jpg";
+import image7 from "../assets/images/media/media-7.png";
 
 export const MediaData = [
   {

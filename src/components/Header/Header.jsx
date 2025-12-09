@@ -194,7 +194,7 @@ const Header = () => {
                     isActive ? styles.active : styles.navLink
                   }
                   key={item.id}
-                  exact
+                  end={item.id === 1}
                 >
                   {item.text}
                 </NavLink>

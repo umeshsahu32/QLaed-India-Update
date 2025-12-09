@@ -25,7 +25,7 @@ const AIToolsModal = ({ isOpen, onClose, data }) => {
     }, 300);
   };
 
-  if (!isOpen) return null;
+  if (!isOpen || !data) return null;
 
   return (
     <div className={`${styles.modalOverlay}`} onClick={handleClose}>

@@ -66,5 +66,4 @@ export const successStoryHomeData = [
     title:
       "How QLead Helped Redberyl Drive Luxury Sales with Targeted Audiences",
   },
-  ,
 ];

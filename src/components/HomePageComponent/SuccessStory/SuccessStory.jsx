@@ -45,13 +45,9 @@ const SuccessStory = () => {
     <Fragment>
       <SectionHeading heading="Success Stories" />
       <div className={styles.cardSection}>
-        {successStoryHomeData.map((item, index) => (
-          <Fragment>
-            <div
-              className={`${styles.card}`}
-              key={index}
-              style={{ background: item.gradient }}
-            >
+        {successStoryHomeData.map((item) => (
+          <Fragment key={item.videoId}>
+            <div className={`${styles.card}`} style={{ background: item.gradient }}>
               <div className={styles.logoContainer}>
                 <img
                   src={item.logo}

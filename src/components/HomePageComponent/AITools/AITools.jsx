@@ -9,11 +9,14 @@ const AITools = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [openDataIndex, setOpenDataIndex] = useState(0);
 
-  const closeModal = () => setIsModalOpen(false);
+  const closeModal = () => {
+    setIsModalOpen(false)
+    setOpenDataIndex(0);
+  };
 
-  const openModalButtonHandler = (e, id) => {
+  const openModalButtonHandler = (e, index) => {
     e.preventDefault();
-    setOpenDataIndex(id);
+    setOpenDataIndex(index);
     setIsModalOpen(true);
   };
 
@@ -21,7 +24,7 @@ const AITools = () => {
     <Fragment>
       <SectionHeading heading="Our Home Grown AI Tools" />
       <section className={styles.section_container}>
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
             <div className={styles.section_card} key={item.id}>
               <img src={item.image} alt="Image" />
@@ -31,7 +34,7 @@ const AITools = () => {
 
                 <button
                   className={styles.submitButton}
-                  onClick={(e) => openModalButtonHandler(e, item.id)}
+                  onClick={(e) => openModalButtonHandler(e, index)}
                 >
                   <span>Know More</span>
                 </button>
