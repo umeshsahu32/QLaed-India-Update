@@ -1,5 +1,6 @@
 import { lazy } from "react";
 
+const HomePage = lazy(() => import("../pages/Home/HomePage.jsx"));
 const AboutUs = lazy(() => import("../pages/AboutUs/AboutUs.jsx"));
 const AudienceGeneration = lazy(() =>
   import(
@@ -34,8 +35,10 @@ const SuccessStories = lazy(() =>
 const TermsCondition = lazy(() =>
   import("../pages/TermsCondition/TermsCondition.jsx")
 );
+const Packages2 = lazy(() => import("../pages/Packages2/Packages2.jsx"));
 
 export {
+  HomePage,
   AboutUs,
   AudienceGeneration,
   Blogs,
@@ -52,4 +55,5 @@ export {
   Services,
   SuccessStories,
   TermsCondition,
+  Packages2,
 };

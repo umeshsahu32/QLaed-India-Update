@@ -1,16 +1,19 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-// import SideBar from "../components/SideBar/SideBar";
 import WhatsappIcon from "../components/WhatsappIcon/WhatsappIcon";
+import PageLoader from "../components/PageLoader/PageLoader";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 function Layout() {
   return (
     <Fragment>
+      <ScrollToTop />
       <Header />
-      <Outlet />
-      {/* <SideBar /> */}
+      <Suspense fallback={<PageLoader />}>
+        <Outlet />
+      </Suspense>
       <WhatsappIcon />
       <Footer />
     </Fragment>

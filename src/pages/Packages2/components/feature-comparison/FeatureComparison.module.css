@@ -1,0 +1,390 @@
+.section {
+  /* padding: 6rem 2rem; */
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(21, 121, 189, 0.02) 0%,
+    rgba(142, 68, 173, 0.02) 100%
+  );
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+  background-color: #fff;
+  border: 1px solid #157abd36;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .tableWrapper {
+    display: none;
+  }
+}
+
+.comparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  min-width: 800px;
+}
+
+.comparisonTable thead {
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+}
+
+.comparisonTable th {
+  padding: 1.5rem 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.comparisonTable th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.comparisonTable th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.featureColumn {
+  min-width: 200px;
+  position: sticky;
+  left: 0;
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  z-index: 2;
+}
+
+.planColumn {
+  min-width: 150px;
+  text-align: center;
+}
+
+.tableRow {
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #157abd36;
+}
+
+.tableRow:hover {
+  background-color: rgba(21, 121, 189, 0.03);
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.featureCell {
+  padding: 1.5rem 1.2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 1rem;
+  background-color: #fff;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  border-right: 1px solid #157abd36;
+}
+
+.planCell {
+  padding: 1.5rem 1.2rem;
+  text-align: center;
+  color: var(--color-tertiary);
+  font-size: 1rem;
+  border-right: 1px solid #157abd36;
+}
+
+.planCell:last-child {
+  border-right: none;
+}
+
+.checkmark {
+  color: #269e51;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.dash {
+  color: #999;
+  font-weight: 400;
+}
+
+/* Mobile/Tablet Card Layout */
+.cardsContainer {
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .cardsContainer {
+    display: flex;
+  }
+}
+
+.planCard {
+  background-color: #fff;
+  border: 1px solid #157abd36;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.planCard:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.planCard:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.planCard:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.planCard:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.planCard:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(21, 121, 189, 0.15) 0px 8px 24px;
+  border-color: #157abd66;
+}
+
+.planHeader {
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.planName {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.planFeatures {
+  padding: 1.5rem;
+}
+
+.featureRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #157abd36;
+  transition: background-color 0.2s ease;
+}
+
+.featureRow:last-child {
+  border-bottom: none;
+}
+
+.featureRow:hover {
+  background-color: rgba(21, 121, 189, 0.03);
+  margin: 0 -1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.featureLabel {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 1rem;
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.featureValue {
+  color: var(--color-tertiary);
+  font-size: 1rem;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tablet Responsive */
+@media (max-width: 992px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .cardsContainer {
+    gap: 1.8rem;
+  }
+
+  .planHeader {
+    padding: 1.3rem;
+  }
+
+  .planName {
+    font-size: 1.4rem;
+  }
+
+  .planFeatures {
+    padding: 1.3rem;
+  }
+
+  .featureRow {
+    padding: 0.9rem 0;
+  }
+
+  .featureLabel,
+  .featureValue {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 4rem 1.5rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .planName {
+    font-size: 1.3rem;
+  }
+
+  .planFeatures {
+    padding: 1.2rem;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 528px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .cardsContainer {
+    gap: 1.2rem;
+  }
+
+  .planHeader {
+    padding: 1rem;
+  }
+
+  .planName {
+    font-size: 1.2rem;
+  }
+
+  .planFeatures {
+    padding: 1rem;
+  }
+
+  .featureRow {
+    padding: 0.7rem 0;
+  }
+
+  .featureRow:hover {
+    margin: 0 -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .featureLabel,
+  .featureValue {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .cardsContainer {
+    gap: 1rem;
+  }
+
+  .planHeader {
+    padding: 0.9rem;
+  }
+
+  .planName {
+    font-size: 1.1rem;
+  }
+
+  .planFeatures {
+    padding: 0.9rem;
+  }
+
+  .featureRow {
+    padding: 0.6rem 0;
+  }
+
+  .featureRow:hover {
+    margin: 0 -0.9rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .featureLabel,
+  .featureValue {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,791 @@
+.section {
+  padding: 6rem 2rem;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(21, 121, 189, 0.02) 0%,
+    rgba(142, 68, 173, 0.02) 100%
+  );
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.subsection {
+  margin-bottom: 5rem;
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.subsection:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.subsection:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.subsection:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.subsection:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.subsectionHeading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.subsectionHeading2 {
+  margin-bottom: 1.5rem;
+}
+
+.subsectionDescription {
+  font-size: 1.1rem;
+  color: var(--color-tertiary);
+  text-align: center;
+  margin-bottom: 4rem;
+  line-height: 1.6;
+}
+
+.subsectionDescription2 {
+  margin-bottom: 2rem;
+}
+
+/* Zero Junk Layers */
+.layersContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.layerCard {
+  background-color: #fff;
+  border: 1px solid #157abd36;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.layerCard:hover {
+  transform: translateY(-4px);
+  box-shadow: rgba(21, 121, 189, 0.15) 0px 8px 24px;
+  border-color: #157abd66;
+}
+
+.layerNumber {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(21, 121, 189, 0.3);
+}
+
+.layerTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.layerList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.layerItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 1rem;
+  color: var(--color-tertiary);
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.bullet {
+  color: #1579bd;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.qualificationNote {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(21, 121, 189, 0.05);
+  border-radius: 10px;
+  border-left: 4px solid #1579bd;
+}
+
+.qualificationNote p {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin: 0;
+  font-weight: 500;
+}
+
+.qualificationNote strong {
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Lead Replacement Guarantee */
+.guaranteeCard {
+  background: linear-gradient(
+    135deg,
+    rgba(21, 121, 189, 0.08) 0%,
+    rgba(142, 68, 173, 0.08) 100%
+  );
+  border: 2px solid #157abd36;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.guaranteeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
+  border-right: 2px solid #157abd36;
+}
+
+.guaranteeIcon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.guaranteeText {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.guaranteeResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.guaranteeResultIcon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.guaranteeResultText {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Delivery Workflow */
+.componentsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.componentCard {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: rgba(21, 121, 189, 0.03);
+  border: 1px solid #157abd36;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--color-tertiary);
+  transition: all 0.2s ease;
+}
+
+.componentCard:hover {
+  background: rgba(21, 121, 189, 0.08);
+  transform: translateX(5px);
+}
+
+.checkmark {
+  color: #269e51;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.deliveryMethods {
+  background-color: #fff;
+  border: 1px solid #157abd36;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.deliveryTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.deliveryList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.deliveryItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  color: var(--color-tertiary);
+}
+
+.deliveryBullet {
+  color: #1579bd;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.enterpriseDelivery {
+  font-size: 0.95rem;
+  color: var(--color-tertiary);
+  font-style: italic;
+  margin: 0;
+  margin-left: auto;
+  padding-left: 2rem;
+  border-left: 1px solid #157abd36;
+}
+
+/* Why Choose Section */
+.whyChooseCard {
+  background-color: #fff;
+  border: 1px solid #157abd36;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.whyChooseList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 2rem;
+  border-right: 2px solid #157abd36;
+}
+
+.whyChooseItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--color-tertiary);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.whyChooseBullet {
+  color: #1579bd;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.whyChooseConclusion {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  line-height: 1.8;
+  margin: 0;
+  padding-left: 2rem;
+}
+
+/* CTA Section */
+.ctaSection {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(21, 121, 189, 0.05) 0%,
+    rgba(142, 68, 173, 0.05) 100%
+  );
+  border-radius: 20px;
+  border: 2px solid #157abd36;
+  margin-top: 3rem;
+}
+
+.ctaHeading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.ctaSubheading {
+  font-size: 1.5rem;
+  color: var(--color-tertiary);
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ctaButtonPrimary,
+.ctaButtonSecondary,
+.ctaButtonTertiary {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  text-decoration: none;
+}
+
+.ctaButtonPrimary {
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  color: #fff;
+}
+
+.ctaButtonPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(21, 121, 189, 0.3);
+}
+
+.ctaButtonSecondary {
+  background: transparent;
+  border: 2px solid #1579bd;
+  color: var(--color-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaButtonSecondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #1579bd, #8e44ad);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.ctaButtonSecondary:hover {
+  color: #fff;
+  border-color: transparent;
+}
+
+.ctaButtonSecondary:hover::before {
+  left: 0;
+}
+
+.ctaButtonTertiary {
+  background: transparent;
+  border: 2px solid #8e44ad;
+  color: var(--color-primary);
+}
+
+.ctaButtonTertiary:hover {
+  background: linear-gradient(45deg, #8e44ad, #1579bd);
+  color: #fff;
+  border-color: transparent;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tablet Responsive */
+@media (max-width: 992px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .subsection {
+    margin-bottom: 4rem;
+  }
+
+  .subsectionHeading {
+    font-size: 2rem;
+  }
+
+  .layersContainer {
+    gap: 1.5rem;
+  }
+
+  .layerCard {
+    padding: 1.5rem;
+  }
+
+  .layerTitle {
+    font-size: 1.2rem;
+  }
+
+  .guaranteeCard {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .guaranteeContent {
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 2px solid #157abd36;
+    padding-bottom: 1.5rem;
+  }
+
+  .guaranteeResult {
+    padding-left: 0;
+  }
+
+  .guaranteeResultIcon {
+    font-size: 3rem;
+  }
+
+  .componentsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .deliveryMethods {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .deliveryList {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .enterpriseDelivery {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    padding-top: 1rem;
+    border-top: 1px solid #157abd36;
+    width: 100%;
+  }
+
+  .whyChooseCard {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .whyChooseList {
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 2px solid #157abd36;
+    padding-bottom: 2rem;
+  }
+
+  .whyChooseConclusion {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .ctaHeading {
+    font-size: 2.2rem;
+  }
+
+  .ctaSubheading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 4rem 1.5rem;
+  }
+
+  .subsection {
+    margin-bottom: 3.5rem;
+  }
+
+  .subsectionHeading {
+    font-size: 1.8rem;
+  }
+
+  .subsectionDescription {
+    font-size: 1rem;
+  }
+
+  .layersContainer {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .layerCard {
+    padding: 1.5rem;
+  }
+
+  .layerTitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .layerItem {
+    font-size: 0.95rem;
+  }
+
+  .guaranteeCard {
+    padding: 1.5rem;
+  }
+
+  .guaranteeIcon {
+    font-size: 3rem;
+  }
+
+  .guaranteeText {
+    font-size: 1.1rem;
+  }
+
+  .guaranteeResultText {
+    font-size: 1.2rem;
+  }
+
+  .componentsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .whyChooseCard {
+    padding: 1.5rem;
+  }
+
+  .whyChooseItem {
+    font-size: 1rem;
+  }
+
+  .whyChooseConclusion {
+    font-size: 1.1rem;
+  }
+
+  .ctaSection {
+    padding: 3rem 1.5rem;
+  }
+
+  .ctaHeading {
+    font-size: 1.8rem;
+  }
+
+  .ctaSubheading {
+    font-size: 1.2rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .ctaButtonPrimary,
+  .ctaButtonSecondary,
+  .ctaButtonTertiary {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 528px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .subsection {
+    margin-bottom: 3rem;
+  }
+
+  .subsectionHeading {
+    font-size: 1.6rem;
+  }
+
+  .subsectionDescription {
+    font-size: 0.95rem;
+  }
+
+  .layerCard {
+    padding: 1.2rem;
+  }
+
+  .layerNumber {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    top: -12px;
+    left: 15px;
+  }
+
+  .layerTitle {
+    font-size: 1rem;
+  }
+
+  .layerItem {
+    font-size: 0.9rem;
+  }
+
+  .qualificationNote {
+    padding: 1.2rem;
+  }
+
+  .qualificationNote p {
+    font-size: 1rem;
+  }
+
+  .guaranteeCard {
+    padding: 1.5rem 1rem;
+  }
+
+  .guaranteeIcon {
+    font-size: 2.5rem;
+  }
+
+  .guaranteeText {
+    font-size: 1rem;
+  }
+
+  .guaranteeResultText {
+    font-size: 1rem;
+  }
+
+  .componentCard {
+    padding: 0.9rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .deliveryMethods {
+    padding: 1.2rem;
+  }
+
+  .deliveryTitle {
+    font-size: 1rem;
+  }
+
+  .deliveryItem {
+    font-size: 0.95rem;
+  }
+
+  .whyChooseCard {
+    padding: 1.2rem;
+  }
+
+  .whyChooseItem {
+    font-size: 0.95rem;
+  }
+
+  .whyChooseConclusion {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .ctaSection {
+    padding: 2.5rem 1rem;
+  }
+
+  .ctaHeading {
+    font-size: 1.6rem;
+  }
+
+  .ctaSubheading {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .subsectionHeading {
+    font-size: 1.4rem;
+  }
+
+  .ctaHeading {
+    font-size: 1.4rem;
+  }
+
+  .ctaSubheading {
+    font-size: 1rem;
+  }
+}
