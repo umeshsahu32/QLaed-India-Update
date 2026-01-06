@@ -13,6 +13,13 @@
   min-width: 300px;
 }
 
+.address_text {
+  font-size: 1rem;
+  font-family: var(--font-family-2);
+  font-weight: 400;
+  color: var(--color-tertiary);
+}
+
 .leftColumn h1 {
   font-size: 5rem;
   color: var(--primary-color);

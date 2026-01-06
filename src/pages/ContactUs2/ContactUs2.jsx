@@ -122,16 +122,6 @@ const ContactUs2 = () => {
   // @  JSX START
   return (
     <Fragment>
-      {/* <Helmet>
-        <title>
-          Contact QLead - Boost Your Business with Intent-Qualified Leads
-        </title>
-        <meta name="keyword" content="Contact QLead" />
-        <meta
-          name="description"
-          content="Contact QLead to learn how our intent-qualified leads can drive business growth. Get in touch today!"
-        />
-      </Helmet> */}
       <div className={styles.section14}>
         <div className={styles.leftColumn}>
           <h1>
@@ -160,6 +150,14 @@ const ContactUs2 = () => {
               </div>
             </div>
           </a>
+          <p className={styles.address_text}>
+            <strong>Leadsync Technologies,</strong>
+            <br />
+            Plot No 5 & 6 H.No 7-1-5 & 6 <br />
+            Flat No 101, First Floor, RR Heights,
+            <br />
+            Ameerpet, Hyderabad, Telangana, India
+          </p>
         </div>
         <div className={styles.rightColumn}>
           <div className={styles.get_quote}>Get A Quote</div>

@@ -168,7 +168,33 @@ const TermsCondition = () => {
         </div>
 
         <div className={styles.terms_section}>
-          <h5>8. Governing Law</h5>
+          <h5>8. No Refund Policy</h5>
+          <p>
+            All payments made to QLead.ai are strictly non-refundable. Once a
+            payment is processed for any service, including but not limited to
+            lead generation packages, platform access fees, AI tools, software
+            usage, marketing services, or any other offering, no refunds,
+            chargebacks, or reversals shall be issued under any circumstances.
+          </p>
+          <p>
+            QLead.ai charges solely for the delivery of qualified leads and
+            services as defined in the applicable agreement or service
+            description. We do not guarantee business conversion, sales closure,
+            or revenue generation from the leads provided. Dissatisfaction with
+            lead outcomes, business performance, or campaign results shall not
+            constitute grounds for a refund.
+          </p>
+          <p>
+            This no-refund policy applies irrespective of service usage, early
+            termination, campaign pause, change in business requirements, or
+            discontinuation of services by the client. By using QLead.ai
+            services and making a payment, the client expressly agrees to and
+            accepts this no-refund policy.
+          </p>
+        </div>
+
+        <div className={styles.terms_section}>
+          <h5>9. Governing Law</h5>
           <p>
             These Terms and Conditions are governed by and construed in
             accordance with the laws of India. You agree to submit to the
@@ -179,7 +205,7 @@ const TermsCondition = () => {
         </div>
 
         <div className={styles.terms_section}>
-          <h5>9. Changes to These Terms</h5>
+          <h5>10. Changes to These Terms</h5>
           <p>
             QLead may update these Terms and Conditions from time to time. We
             will notify you of any changes by posting the new terms on this page
@@ -189,7 +215,7 @@ const TermsCondition = () => {
         </div>
 
         <div className={styles.terms_section}>
-          <h5>10. Contact Us</h5>
+          <h5>11. Contact Us</h5>
           <p>
             If you have any questions or concerns about these Terms and
             Conditions, please <Link to="/contact-us">Contact us</Link>
