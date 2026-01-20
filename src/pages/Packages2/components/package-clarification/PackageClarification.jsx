@@ -20,13 +20,13 @@ const PackageClarification = () => {
       <div className={styles.container}>
         <h2 className={styles.heading}>{PACKAGE_CLARIFICATION_HEADING}</h2>
         <div className={styles.content}>
-          <p className={styles.mainText}>
+          {/* <p className={styles.mainText}>
             {MAIN_TEXT_1} <strong>{MAIN_TEXT_2}</strong> {MAIN_TEXT_3}
           </p>
-          <p className={styles.description}>{DESCRIPTION}</p>
+          <p className={styles.description}>{DESCRIPTION}</p> */}
 
           <div className={styles.youPaySection}>
-            <h3 className={styles.youPayTitle}>{YOU_PAY_TITLE}</h3>
+            {/* <h3 className={styles.youPayTitle}>{YOU_PAY_TITLE}</h3> */}
             <ul className={styles.itemsList}>
               {youPayItems.map((item, index) => (
                 <li key={index} className={styles.item}>
@@ -49,12 +49,12 @@ const PackageClarification = () => {
           </div>
         </div>
 
-        <div className={styles.enterpriseNote}>
+        {/* <div className={styles.enterpriseNote}>
           <div className={styles.noteIcon}>💼</div>
           <p>
             <strong>{ENTERPRISE_TEXT}</strong> {ENTERPRISE_TEXT_2}
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

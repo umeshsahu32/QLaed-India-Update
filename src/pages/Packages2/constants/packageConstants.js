@@ -11,7 +11,7 @@ export const PACKAGE_CONSTANTS = {
     ENTERPRISE: "Enterprise",
   },
   packageClarification: {
-    PACKAGE_CLARIFICATION_HEADING: "Why This Page Exists — Clarity & Truth",
+    PACKAGE_CLARIFICATION_HEADING: "You Pay For",
     YOU_PAY_TITLE: "You pay for:",
     MAIN_TEXT_1: "The first payment you make is",
     MAIN_TEXT_2: "NOT",

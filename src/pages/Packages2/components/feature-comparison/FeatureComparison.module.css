@@ -3,6 +3,7 @@
   background-color: #fff;
   position: relative;
   overflow: hidden;
+  padding-bottom: 4rem;
 }
 
 .section::before {
@@ -86,6 +87,8 @@
 
 .featureColumn {
   min-width: 200px;
+  /* max-width: 300px !important; */
+  width: 300px;
   position: sticky;
   left: 0;
   background: linear-gradient(45deg, #1579bd, #8e44ad);

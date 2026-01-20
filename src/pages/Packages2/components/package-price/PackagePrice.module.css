@@ -291,9 +291,12 @@
 
 .outputSection {
   margin-top: auto;
-  padding: 1rem;
+  padding: 1rem 1.1rem;
   border-radius: 10px;
   border: 2px dashed;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
 }
 
 .packageCard.blue .outputSection {
@@ -314,6 +317,57 @@
 .packageCard.purple .outputSection {
   background: rgba(142, 68, 173, 0.05);
   border-color: rgba(142, 68, 173, 0.2);
+}
+
+.outputIntro {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--color-tertiary);
+}
+
+.outputSubtext {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--color-primary);
+}
+
+.outputList {
+  list-style: none;
+  padding: 0;
+  margin: 0.1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.outputItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--color-tertiary);
+}
+
+.outputBadge {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--color-primary);
+}
+
+.outputItem strong {
+  font-weight: 700;
+  color: var(--color-primary);
 }
 
 .outputLabel {

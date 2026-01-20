@@ -73,7 +73,7 @@ export const AppRouter = createBrowserRouter([
 
       {
         path: "our-packages",
-        element: <Packages />,
+        element: <Packages2 />,
       },
       {
         path: "privacy-policy",
@@ -91,10 +91,10 @@ export const AppRouter = createBrowserRouter([
         path: "terms-and-conditions",
         element: <TermsCondition />,
       },
-      {
-        path: "our-packages2",
-        element: <Packages2 />,
-      },
+      // {
+      //   path: "our-packages2",
+      //   element: <Packages2 />,
+      // },
       {
         path: "*",
         element: <PageNotFound />,

@@ -8,7 +8,6 @@ const PackagePrice = () => {
     PACKAGE_PRICE_SUBHEADING,
     IDEAL_FOR,
     YOU_GET,
-    OUTPUT,
   } = PACKAGE_CONSTANTS.packagePrice;
   return (
     <section id="package-comparison" className={styles.section}>
@@ -46,11 +45,18 @@ const PackagePrice = () => {
                 </div>
 
                 <div className={styles.outputSection}>
-                  <div className={styles.outputLabel}>{OUTPUT}</div>
-                  <div className={styles.outputValue}>
-                    <span className={styles.arrow}>👉</span>
-                    <span>{pkg.output}</span>
-                  </div>
+                  <p className={styles.outputIntro}>
+                 {pkg.output_description}
+                  </p>
+                  <p className={styles.outputSubtext}>Illustrative scenarios:</p>
+                  <ul className={styles.outputList}>
+                    {pkg?.output_examples?.map((example, idx) => (
+                      <li className={styles.outputItem} key={idx}>
+                        <span className={styles.outputBadge}>Scenario {idx + 1}</span>
+                        <span>{example}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>

@@ -21,8 +21,8 @@ const Packages2 = () => {
       <PackageClarification />
       <PackagePrice />
       <FeatureComparison />
-      <PackageProcess />
-      <Faq />
+      {/* <PackageProcess /> */}
+      {/* <Faq /> */}
     </div>
   );
 };
