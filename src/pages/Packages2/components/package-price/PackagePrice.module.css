@@ -117,6 +117,14 @@
   box-shadow: rgba(142, 68, 173, 0.25) 0px 12px 32px;
 }
 
+.packageCard.green {
+  border-color: #27ae60;
+}
+
+.packageCard.green:hover {
+  box-shadow: rgba(39, 174, 96, 0.25) 0px 12px 32px;
+}
+
 .cardHeader {
   padding: 1.5rem 1.5rem 1rem;
   position: relative;
@@ -146,6 +154,10 @@
 
 .packageCard.purple .colorIndicator {
   background: linear-gradient(90deg, #8e44ad, #9b59b6);
+}
+
+.packageCard.green .colorIndicator {
+  background: linear-gradient(90deg, #27ae60, #2ecc71);
 }
 
 .packageCard:hover .colorIndicator {
@@ -193,6 +205,14 @@
 
 .packageCard.purple .price {
   background: linear-gradient(45deg, #8e44ad, #9b59b6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.packageCard.green .price {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -289,6 +309,10 @@
   background: linear-gradient(45deg, #8e44ad, #9b59b6);
 }
 
+.packageCard.green .checkIcon {
+  background: linear-gradient(45deg, #27ae60, #2ecc71);
+}
+
 .outputSection {
   margin-top: auto;
   padding: 1rem 1.1rem;
@@ -317,6 +341,11 @@
 .packageCard.purple .outputSection {
   background: rgba(142, 68, 173, 0.05);
   border-color: rgba(142, 68, 173, 0.2);
+}
+
+.packageCard.green .outputSection {
+  background: rgba(39, 174, 96, 0.05);
+  border-color: rgba(39, 174, 96, 0.2);
 }
 
 .outputIntro {

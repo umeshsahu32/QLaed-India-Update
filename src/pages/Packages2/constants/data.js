@@ -166,7 +166,7 @@ export const packages = [
   {
     name: "Premium Package",
     price: "₹1,00,000",
-    color: "red",
+    color: "green",
     idealFor:
       "Businesses that rely heavily on inside sales & require high intent",
     features: [
